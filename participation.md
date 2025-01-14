@@ -34,6 +34,8 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Worked on my homework repository with Professor Korf using discord on Friday
 	+ Submitted my homework URL
 - Week 2
+	+ Attended class on Tuesday 
+	+ Took notes during class 
 - Week 3
 - Week 4
 - Week 5
