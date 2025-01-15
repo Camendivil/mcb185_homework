@@ -35,7 +35,8 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Submitted my homework URL
 - Week 2
 	+ Attended class on Tuesday 
-	+ Took notes during class 
+	+ Took notes during class
+	+ Helped Jedikayle with her 04spellingbeehomework 
 - Week 3
 - Week 4
 - Week 5
