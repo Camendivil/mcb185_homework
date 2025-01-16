@@ -37,6 +37,8 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class on Tuesday 
 	+ Took notes during class
 	+ Helped Jedikayle with her 04spellingbeehomework 
+	+ Attended class on Thursday 
+	+ I met Alejandro on Thursday 
 - Week 3
 - Week 4
 - Week 5
