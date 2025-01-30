@@ -40,6 +40,8 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class on Thursday 
 	+ I met Alejandro on Thursday 
 - Week 3
+	+ Caught the cold that has been going around
+	+ Lots of rest
 - Week 4
 - Week 5
 - Week 6
