@@ -43,6 +43,8 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Caught the cold that has been going around
 	+ Lots of rest
 - Week 4
+	+ Turns out I had the flu 
+	+ Worked from home
 - Week 5
 - Week 6
 - Week 7
