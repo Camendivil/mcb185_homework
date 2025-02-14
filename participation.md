@@ -40,13 +40,19 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class on Thursday 
 	+ I met Alejandro on Thursday 
 - Week 3
+	+ Passed Unit 0 assesment 
 	+ Caught the cold that has been going around
 	+ Lots of rest
 - Week 4
 	+ Turns out I had the flu 
 	+ Worked from home
 - Week 5
+	+ Started working on Unit 1 hw
+	+ Finished Unit 1
+	+ Worked on unit 1 on discord with Alex Q.
 - Week 6
+	+ Git pushed my hw 
+	+ Alejandro helped me get started on Unit 2
 - Week 7
 - Week 8
 - Week 9
