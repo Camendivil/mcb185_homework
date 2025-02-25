@@ -40,7 +40,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class on Thursday 
 	+ I met Alejandro on Thursday 
 - Week 3
-	+ Passed Unit 0 assesment 
+	+ Passed Unit 0 assessment 
 	+ Caught the cold that has been going around
 	+ Lots of rest
 - Week 4
@@ -54,6 +54,11 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Git pushed my hw 
 	+ Alejandro helped me get started on Unit 2
 - Week 7
+	+ Attended office hours and passed unit 1 assessment 
+	+ Met with Alejandro and did a coderie
 - Week 8
+	+ Went over unit 4 in class
+	+ Practiced Unit 2 assessment example
+	+ Need to schedule an assessment for this unit
 - Week 9
 - Week 10
