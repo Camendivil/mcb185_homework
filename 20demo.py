@@ -58,3 +58,35 @@ for i in range(7):
 	if i % 2 ==0: print(i, 'is even')
 	else: 		print(i, 'is odd')
 	
+	
+
+#Random Numbers
+import random
+
+for i in range(5):
+	print(random.random())
+	
+# This generates a random number between two inclusive end points. 
+#For example, the following code simulates rolling a 6-sided die 3 times.
+
+for i in range(3):
+    print(random.randint(1, 6))
+
+
+random.seed(1)
+print(random.random())
+print(random.random())
+random.seed(2)
+print(random.random())
+print(random.random())
+random.seed(1)
+print(random.random())
+print(random.random())
+
+'''
+Compound Assignment
+operator	purpose				example
++=			increment			a += 1
+-=			decrement			a -= 1
+*=			multiply & assign	a*= 2
+'''
