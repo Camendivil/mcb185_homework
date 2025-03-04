@@ -1,10 +1,9 @@
 # 22fibonacci.py by Carolina_ Mendivil
 
 '''
-Write a program that finds all Pythagorean triples for triangles with sides 
-a and b less than 100. For example, 3, 4, 5 is a triple: 3^2 + 4^2 = 5^2. 
-Hint: all sides, including the hypotenuse, must be integers.
- A good way to test for an integer is like: if c % 1 == 0.
+A classic programming interview question is to write a program that reports the 
+first 10 numbers from the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34. 
+This is a tricky problem. You need to initialize and keep track of 2 previous values.
  '''
  
  
