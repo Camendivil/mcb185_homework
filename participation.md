@@ -61,4 +61,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Practiced Unit 2 assessment example
 	+ Need to schedule an assessment for this unit
 - Week 9
+	+ Passed in class Unit 2 assessment
+	+ Started on Unit 3
+	+ Worked with Alex on discord
 - Week 10
+	+ Took Unit 3 assessment, i don't think I passed
+	+ Prof went over Unit 3 and 4 assessment on the whiteboard
