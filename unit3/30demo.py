@@ -1,0 +1,234 @@
+#30demo.py by Carolina_Mendivil
+
+# strings
+s = 'hello world'
+print(s)
+
+s1 = 'hey "dude"' # put double quotes inside single quotes
+s2 = 'dont tell me what to do'
+print(s1,s2)
+
+
+#string methods
+
+print(s.upper())
+print(s)
+
+print(s.replace('o', ''))
+print(s.replace('o', '').replace('r', 'i'))
+
+
+
+#String Formatting
+import math
+
+print(f'{math.pi}') 			#does nothing special
+print(f'{math.pi:.3f}') 		#3 decimal places
+print(f'{1e6*math.pi:e}') 		#exponent notation/ scientific notation
+print(f'{"hello world":>20}') 	#right justify with space filler
+print(f'{"hello workd":.>20}')	#right justify with dot filler
+print(f'{20:<10} {10}') 		#left justify
+
+print('{} {:.3f}'.format('str.format', math.pi))	 #str.format
+# {} is replaced by 'str.format' and {:.3f} ensures 3 dec places for pi
+
+print('%s %.3f' % ('printf', math.pi)) #legacy format %s = stirng %.3f = 3 decimal places
+
+
+#Indexes = position of a character in a string
+#indexing starts at 0, not 1
+
+seq = 'GAATTC'
+print(seq[0], seq[1]) 	#seq[0]=G seq[1]=A
+
+print(seq[-1]) 			#negative index, counts backwards seq[-1]=C
+
+for nt in seq: 			#loops through each character in seq
+    print(nt, end='') 	#prints each new character without new line
+print() 				#moves to next line after the loop
+
+for i in range(len(seq)): 
+    print(i, seq[i])
+    
+    
+#Slices
+
+s = 'ABCDEFGHIJ' 
+print(s[0:5]) 		#starts a index 0 and ends before index 5
+					#output ABCDE
+
+print(s[0:8:2]) 	#start a 0, end before 8, skip by 2
+					#output ACEG
+
+print(s[0:5], s[:5]) 		#both ABCDE, second is shortcut notation
+print(s[5:len(s)], s[5:])	#both FGHIJ
+
+print(s, s[::], s[::1], s[::-1]) 
+''' first 3 are equivalents, 
+last returns reverse output'''
+
+
+#Slice a DNA string into codon
+
+dna = 'ATGCTGTAA' 
+for i in range(0, len(dna), 3): 	#loop through indexes from 0 to len(dna to step of 3)
+    codon = dna[i:i+3] 				#define codon and slicing string fr index to i to i+3
+    print(i, codon) 				#print starting index (i) and extracted codon
+'''
+i = 0 -> dna[0:3] = 'ATG'
+i = 3 -> dna[3:6] = 'CTG'
+i = 6 -> dna[6:9] = 'TAA'
+'''
+
+#Tuples = container like strings
+
+tax = ('Homo','sapiens',9606) 
+print(tax) 			#note there is parentheses in the output
+
+print(tax[0]) 		#can be indexed like strings
+print(tax[::-1]) 	#can be sliced like strings
+
+
+#Enumerate()=indexing a sequence
+
+nts = 'ACGT'
+for i in range(len(nts)): 		#length of nts is 4
+    print(i, nts[i]) 			#gives values from 0 to before 4
+
+for i, nt in enumerate(nts): 	#same idea but better
+    print(i, nt)
+
+
+#Zip() = pairing two sequences
+
+names = ('adenine','cytosine','guanine','thymine')
+for i in range(len(names)):
+    print(nts[i], names[i])
+
+			#another example:
+			
+for nt, name in zip(nts, names): 	#Pairs elements from both nts & names tuples
+    print(nt, name)
+
+for i, (nt, name) in enumerate(zip(nts,names)): #adding an index to paired elements
+    print(i, nt, name) 							#output index, nt, name (ex. 0 A adenine)
+    
+
+#Lists
+'''
+uses [square brackets] and mutable, similar to tuples
+'''
+
+nts = ['A','T','C']
+print(nts)
+nts[2] = 'G' 		#changes C -> G
+print(nts)
+
+
+
+nts.append('C') 	#listname.append()  adds element to end of list
+print(nts)
+
+last = nts.pop() 	#listname.pop()  removes and returns the last element
+print(last)
+print(nts)
+
+nts.sort() 			#listname.sort()  sorts in Ascendings order
+print(nts)
+
+nts.sort(reverse=True) 	#sorts in Descending order
+
+nucleotides = nts 		#setting that both nucleotides and nts refer to the same list
+nucleotides.append('C')
+nucleotides.sort()
+print(nts, nucleotides)
+
+#List() w/o arguments generate empty list
+
+items = list() 			
+print(items)
+items.append('eggs') 	#adds eggs to the list
+print(items)
+
+stuff = [] 				#can also create empty lists with square brackets
+stuff.append(3) 		#adds 3 to the list
+print(stuff)
+
+
+alph = 'ABCDEFGHIKLMPQRSVW'
+print(alph)
+aas = list(alph) 		#converts string into a list of characters
+print(aas)
+
+#Split() and join()
+text = 'good day to you'
+words = text.split() 	#stringname.split() = converts string into a list of words
+print(words)
+
+line = '1.41,2.72,3.14'
+print(line.split(',')) 	#splits on the comma
+
+s = '-'.join(aas) 		#joined by - delimiter
+print(s) 				#Output: 'A-C-D-E-F-G-H-I-K-L-M-P-Q-R-S-V-W'
+s = ''.join(aas) 		#joined by blank delimeter
+print(s) 				#Output: 'ACDEFGHIKLMPQRSVW'
+
+
+#Searching
+
+if 'A' in alph: print('yay')
+if 'a' in alph: print('no') #no output bc 'a' is not in alph
+
+
+
+#Index() = for lists and strings
+
+print('index G?', alph.index('G')) #stringname.index() = returns index of where element occurs
+#				print('index Z?', alph.index('Z')) -> returns error bc Z is not in string
+
+
+#Find() = only for strings
+alph = 'ABCDEFGHIKLMPQRSVW'
+print('find G?', alph.find("G")) 
+print('find Z?', alph.find("Z")) 	#returns -1 to indicate it does not exist
+
+
+#Command line data
+
+import sys
+print(sys.argv)
+
+
+#Converting types
+'''
+command line arguments are always strings
+so you must convert them to numbers for math
+operations
+'''
+
+i = int('42') 			#converts '42' to an integer
+x = float('0.61803') 	#converts number to a float
+print(i*x)
+
+
+#x = float('hello') would get an error bc hello is not a number
+
+#pairwise comparison = comparing each item in a list with every other item
+listpair = ['A','C','T','G']
+print(listpair)
+
+print('all combinations: X = 0')
+for i in range(0, len(listpair)):
+    for j in range(0, len(listpair)): 		#starts at 0
+        print(listpair[i], listpair[j])
+
+print('half matrix with diagonal: X = i') 	#includes self compariosons
+for i in range(0, len(listpair)):
+    for j in range(i, len(listpair)): 		#starts at i
+        print(listpair[i], listpair[j])
+
+print('half matrix w/o diagonal: X = i + 1')
+for i in range(0, len(listpair)):
+    for j in range(i + 1, len(listpair)): 	#starts at i + 1
+        print(listpair[i], listpair[j])
+
