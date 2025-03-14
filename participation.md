@@ -59,7 +59,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Git pushed my hw 
 	+ Alejandro helped me get started on Unit 2
 	+ Attended class Thursday 
-	+ Partened up with Sophia L, to work during class
+	+ Partnered up with Sophia L, to work during class
 - Week 7
 	+ Attended class on Tuesday 
 	+ Attended office hours and passed unit 1 assessment 
@@ -81,3 +81,5 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class on Tuesday
 	+ Took Unit 3 assessment, i don't think I passed
 	+ Prof went over Unit 3 and 4 assessment on the whiteboard
+	+ Class was cancelled on Thursday due to prof not feeling great 
+	+ Got ready for my Unit 3 assessment 
