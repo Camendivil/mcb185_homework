@@ -58,7 +58,7 @@ def is_transmem(seq):
         return False 
 
   
-    for i in range(len(transmem_region) - 11 + 1): #  #check transmembrane region (11 aa, KD >= 2.0, no P)
+    for i in range(len(transmem_region) - 11 + 1): #check transmembrane region (11 aa, KD >= 2.0, no P)
         transmem = transmem_region[i:i+11]
         if 'P' not in transmem and avg_kd(transmem) >= 2.0:
             return True 
